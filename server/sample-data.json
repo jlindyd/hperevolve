@@ -1,0 +1,380 @@
+[
+  {
+    "id": "RV-1048",
+    "rma": "RMA-803492",
+    "product": "HPE ProLiant DL380 Gen11",
+    "serial": "CZJ42801KL",
+    "customer": "Northstar Financial",
+    "stage": 0,
+    "owner": "Maya Chen",
+    "created": "2026-11-10T21:00:00.000Z",
+    "shipment": "BOL-803492",
+    "doc": "Sample delivery record.pdf",
+    "inspected": false,
+    "disposition": "",
+    "approved": false,
+    "ack": false,
+    "exceptions": [
+      {
+        "id": "EX-1048",
+        "title": "Missing RMA authorization",
+        "severity": "High",
+        "owner": "Maya Chen",
+        "resolved": false,
+        "created": "2026-11-10T21:00:00.000Z",
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "at": "2026-11-10T21:00:00.000Z",
+        "text": "Return received and digital traveler created",
+        "actor": "Maya Chen"
+      }
+    ]
+  },
+  {
+    "id": "RV-1047",
+    "rma": "RMA-803481",
+    "product": "HPE Aruba CX 6300",
+    "serial": "SG42K901P2",
+    "customer": "Summit Health",
+    "stage": 1,
+    "owner": "Jordan Lee",
+    "created": "2026-11-09T21:00:00.000Z",
+    "shipment": "BOL-803481",
+    "doc": "Sample delivery record.pdf",
+    "inspected": false,
+    "disposition": "",
+    "approved": false,
+    "ack": false,
+    "exceptions": [
+      {
+        "id": "EX-1047",
+        "title": "Serial number mismatch",
+        "severity": "High",
+        "owner": "Jordan Lee",
+        "resolved": false,
+        "created": "2026-11-09T21:00:00.000Z",
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "at": "2026-11-09T21:00:00.000Z",
+        "text": "Return received and digital traveler created",
+        "actor": "Maya Chen"
+      },
+      {
+        "at": "2026-11-09T22:00:00.000Z",
+        "text": "Sample workflow history loaded · current stage: Inspection",
+        "actor": "Jordan Lee"
+      }
+    ]
+  },
+  {
+    "id": "RV-1046",
+    "rma": "RMA-803477",
+    "product": "HPE Alletra 6010",
+    "serial": "CZJ31902AB",
+    "customer": "Atlas Manufacturing",
+    "stage": 2,
+    "owner": "Alex Rivera",
+    "created": "2026-11-07T21:00:00.000Z",
+    "shipment": "BOL-803477",
+    "doc": "Sample delivery record.pdf",
+    "inspected": true,
+    "disposition": "",
+    "approved": false,
+    "ack": false,
+    "exceptions": [
+      {
+        "id": "EX-1046",
+        "title": "Disposition approval pending",
+        "severity": "Medium",
+        "owner": "Alex Rivera",
+        "resolved": false,
+        "created": "2026-11-07T21:00:00.000Z",
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "at": "2026-11-07T21:00:00.000Z",
+        "text": "Return received and digital traveler created",
+        "actor": "Maya Chen"
+      },
+      {
+        "at": "2026-11-07T22:00:00.000Z",
+        "text": "Sample workflow history loaded · current stage: Disposition",
+        "actor": "Alex Rivera"
+      }
+    ]
+  },
+  {
+    "id": "RV-1045",
+    "rma": "RMA-803460",
+    "product": "HPE ProLiant DL360 Gen10",
+    "serial": "CZJ21803CX",
+    "customer": "Meridian Systems",
+    "stage": 3,
+    "owner": "Sam Patel",
+    "created": "2026-11-11T21:00:00.000Z",
+    "shipment": "BOL-803460",
+    "doc": "Sample delivery record.pdf",
+    "inspected": true,
+    "disposition": "Resale",
+    "approved": true,
+    "ack": false,
+    "exceptions": [],
+    "events": [
+      {
+        "at": "2026-11-11T21:00:00.000Z",
+        "text": "Return received and digital traveler created",
+        "actor": "Maya Chen"
+      },
+      {
+        "at": "2026-11-11T22:00:00.000Z",
+        "text": "Sample workflow history loaded · current stage: Resale inventory",
+        "actor": "Sam Patel"
+      }
+    ]
+  },
+  {
+    "id": "RV-1044",
+    "rma": "RMA-803452",
+    "product": "HPE Aruba AP-635",
+    "serial": "CNK43721Q9",
+    "customer": "Oakwood University",
+    "stage": 1,
+    "owner": "Jordan Lee",
+    "created": "2026-11-11T21:00:00.000Z",
+    "shipment": "BOL-803452",
+    "doc": "Sample delivery record.pdf",
+    "inspected": false,
+    "disposition": "",
+    "approved": false,
+    "ack": false,
+    "exceptions": [],
+    "events": [
+      {
+        "at": "2026-11-11T21:00:00.000Z",
+        "text": "Return received and digital traveler created",
+        "actor": "Maya Chen"
+      },
+      {
+        "at": "2026-11-11T22:00:00.000Z",
+        "text": "Sample workflow history loaded · current stage: Inspection",
+        "actor": "Jordan Lee"
+      }
+    ]
+  },
+  {
+    "id": "RV-1043",
+    "rma": "RMA-803441",
+    "product": "HPE ProLiant DL380 Gen10",
+    "serial": "CZJ11900LM",
+    "customer": "Apex Logistics",
+    "stage": 0,
+    "owner": "Maya Chen",
+    "created": "2026-11-12T21:00:00.000Z",
+    "shipment": "BOL-803441",
+    "doc": "Sample delivery record.pdf",
+    "inspected": false,
+    "disposition": "",
+    "approved": false,
+    "ack": false,
+    "exceptions": [],
+    "events": [
+      {
+        "at": "2026-11-12T21:00:00.000Z",
+        "text": "Return received and digital traveler created",
+        "actor": "Maya Chen"
+      }
+    ]
+  },
+  {
+    "id": "RV-1042",
+    "rma": "RMA-803429",
+    "product": "HPE MSA 2060",
+    "serial": "2S612901FX",
+    "customer": "Greenfield Energy",
+    "stage": 2,
+    "owner": "Alex Rivera",
+    "created": "2026-11-08T21:00:00.000Z",
+    "shipment": "BOL-803429",
+    "doc": "Sample delivery record.pdf",
+    "inspected": true,
+    "disposition": "",
+    "approved": false,
+    "ack": false,
+    "exceptions": [],
+    "events": [
+      {
+        "at": "2026-11-08T21:00:00.000Z",
+        "text": "Return received and digital traveler created",
+        "actor": "Maya Chen"
+      },
+      {
+        "at": "2026-11-08T22:00:00.000Z",
+        "text": "Sample workflow history loaded · current stage: Disposition",
+        "actor": "Alex Rivera"
+      }
+    ]
+  },
+  {
+    "id": "RV-1041",
+    "rma": "RMA-803410",
+    "product": "HPE Aruba CX 6200",
+    "serial": "SG40J221L3",
+    "customer": "Westbridge Retail",
+    "stage": 3,
+    "owner": "Sam Patel",
+    "created": "2026-11-10T21:00:00.000Z",
+    "shipment": "BOL-803410",
+    "doc": "Sample delivery record.pdf",
+    "inspected": true,
+    "disposition": "Resale",
+    "approved": true,
+    "ack": false,
+    "exceptions": [],
+    "events": [
+      {
+        "at": "2026-11-10T21:00:00.000Z",
+        "text": "Return received and digital traveler created",
+        "actor": "Maya Chen"
+      },
+      {
+        "at": "2026-11-10T22:00:00.000Z",
+        "text": "Sample workflow history loaded · current stage: Resale inventory",
+        "actor": "Sam Patel"
+      }
+    ]
+  },
+  {
+    "id": "RV-1040",
+    "rma": "RMA-803399",
+    "product": "HPE ProLiant DL360 Gen11",
+    "serial": "CZJ42901TG",
+    "customer": "Clearwater Labs",
+    "stage": 4,
+    "owner": "Sam Patel",
+    "created": "2026-11-06T21:00:00.000Z",
+    "shipment": "BOL-803399",
+    "doc": "Sample delivery record.pdf",
+    "inspected": true,
+    "disposition": "Resale",
+    "approved": true,
+    "ack": true,
+    "exceptions": [],
+    "events": [
+      {
+        "at": "2026-11-06T21:00:00.000Z",
+        "text": "Return received and digital traveler created",
+        "actor": "Maya Chen"
+      },
+      {
+        "at": "2026-11-06T22:00:00.000Z",
+        "text": "Sample workflow history loaded · current stage: Closed",
+        "actor": "Sam Patel"
+      }
+    ]
+  },
+  {
+    "id": "RV-1039",
+    "rma": "RMA-803388",
+    "product": "HPE Aruba AP-515",
+    "serial": "CNM32891D8",
+    "customer": "Northstar Financial",
+    "stage": 4,
+    "owner": "Sam Patel",
+    "created": "2026-11-05T21:00:00.000Z",
+    "shipment": "BOL-803388",
+    "doc": "Sample delivery record.pdf",
+    "inspected": true,
+    "disposition": "Resale",
+    "approved": true,
+    "ack": true,
+    "exceptions": [],
+    "events": [
+      {
+        "at": "2026-11-05T21:00:00.000Z",
+        "text": "Return received and digital traveler created",
+        "actor": "Maya Chen"
+      },
+      {
+        "at": "2026-11-05T22:00:00.000Z",
+        "text": "Sample workflow history loaded · current stage: Closed",
+        "actor": "Sam Patel"
+      }
+    ]
+  },
+  {
+    "id": "RV-1038",
+    "rma": "RMA-803375",
+    "product": "HPE ProLiant DL380 Gen10",
+    "serial": "CZJ21942BB",
+    "customer": "Summit Health",
+    "stage": 1,
+    "owner": "Jordan Lee",
+    "created": "2026-11-06T21:00:00.000Z",
+    "shipment": "BOL-803375",
+    "doc": "Sample delivery record.pdf",
+    "inspected": false,
+    "disposition": "",
+    "approved": false,
+    "ack": false,
+    "exceptions": [
+      {
+        "id": "EX-1038",
+        "title": "Inspection damage review",
+        "severity": "Medium",
+        "owner": "Jordan Lee",
+        "resolved": false,
+        "created": "2026-11-06T21:00:00.000Z",
+        "note": ""
+      }
+    ],
+    "events": [
+      {
+        "at": "2026-11-06T21:00:00.000Z",
+        "text": "Return received and digital traveler created",
+        "actor": "Maya Chen"
+      },
+      {
+        "at": "2026-11-06T22:00:00.000Z",
+        "text": "Sample workflow history loaded · current stage: Inspection",
+        "actor": "Jordan Lee"
+      }
+    ]
+  },
+  {
+    "id": "RV-1037",
+    "rma": "RMA-803362",
+    "product": "HPE MSA 2060",
+    "serial": "2S512003GH",
+    "customer": "Atlas Manufacturing",
+    "stage": 4,
+    "owner": "Sam Patel",
+    "created": "2026-11-04T21:00:00.000Z",
+    "shipment": "BOL-803362",
+    "doc": "Sample delivery record.pdf",
+    "inspected": true,
+    "disposition": "Resale",
+    "approved": true,
+    "ack": true,
+    "exceptions": [],
+    "events": [
+      {
+        "at": "2026-11-04T21:00:00.000Z",
+        "text": "Return received and digital traveler created",
+        "actor": "Maya Chen"
+      },
+      {
+        "at": "2026-11-04T22:00:00.000Z",
+        "text": "Sample workflow history loaded · current stage: Closed",
+        "actor": "Sam Patel"
+      }
+    ]
+  }
+]

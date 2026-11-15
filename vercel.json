@@ -1,0 +1,13 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": "",
+  "installCommand": "",
+  "outputDirectory": "dist",
+  "cleanUrls": true,
+  "functions": {
+    "api/agent.js": {
+      "maxDuration": 60
+    }
+  }
+}

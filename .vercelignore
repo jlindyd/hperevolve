@@ -1,0 +1,7 @@
+.git
+.openai
+*.log
+animation-tail.js
+README.md
+.env
+.env.*
